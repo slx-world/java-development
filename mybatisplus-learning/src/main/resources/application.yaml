@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://rm-j6c2k7uyo6n6o2870no.mysql.rds.aliyuncs.com:3306/mp?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username:
+    password:
+logging:
+  level:
+    com.itheima: info
+  pattern:
+    dateformat: HH:mm:ss
