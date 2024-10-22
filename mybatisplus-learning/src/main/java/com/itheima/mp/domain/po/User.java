@@ -1,5 +1,7 @@
 package com.itheima.mp.domain.po;
 
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 import java.util.Date;
@@ -8,10 +10,12 @@ import java.util.Date;
 * 用户表
 */
 @Data
+@TableName("user")
 public class User {
     /**
     * 用户id
     */
+    @TableId
     private Long id;
     /**
     * 用户名

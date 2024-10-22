@@ -9,3 +9,9 @@ logging:
     com.itheima: info
   pattern:
     dateformat: HH:mm:ss
+
+mybatis-plus:
+  type-aliases-package: com.itheima.mp.domain.po
+  global-config:
+    db-config:
+      id-type: assign_id
