@@ -7,6 +7,10 @@
     <groupId>com.itheima</groupId>
     <artifactId>spring-learning</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring01-quickstart</module>
+    </modules>
 
 
 </project>
